@@ -1,0 +1,26 @@
+.container {
+  width: 100%;
+  border-radius: 8px;
+  border-top: 1px solid #333;
+  height: 244px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  display: block;
+  width: 56px;
+  margin-bottom: 16px;
+}
+
+.text {
+  color: var(--gray-300);
+  margin: auto;
+  text-align: center;
+}
+
+.text:first-child {
+  font-weight: bold;
+}

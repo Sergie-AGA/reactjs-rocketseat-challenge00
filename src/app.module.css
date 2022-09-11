@@ -1,0 +1,38 @@
+.main {
+  max-width: 768px;
+  margin: auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.left {
+  font-weight: bold;
+  color: var(--purple);
+}
+
+.right {
+  font-weight: bold;
+  color: var(--blue);
+}
+
+.number {
+  color: var(--gray-100);
+  border-radius: 999px;
+  padding: 2px 8px;
+  font-weight: bold;
+  height: 19px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--gray-400);
+  margin-left: 8px;
+}
